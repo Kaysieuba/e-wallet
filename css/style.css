@@ -1,0 +1,17 @@
+.navbar{
+    border-bottom: 1px solid green !important;
+}
+.navbar .logo{
+  margin: 0px 0px 15px;
+}
+.navbar .logo h1 a{
+  font-weight: bold;
+  color: green;
+}
+.navbar .logo h1 a:hover{
+  text-decoration: none;
+  color: darkgreen;
+}
+div.loginForm{
+  margin-top: 90px;
+}

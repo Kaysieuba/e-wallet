@@ -1,0 +1,45 @@
+.navbar{
+    border-bottom: 1px solid green !important;
+}
+.navbar .logo{
+  margin: 0px 0px 15px;
+  display: inline-block;
+}
+.navbar .logo h1 a{
+  font-weight: bold;
+  color: green;
+}
+.navbar .logo h1 a:hover{
+  text-decoration: none;
+  color: darkgreen;
+}
+.navbar h3{
+  font-size: 20px;
+  margin-top: 30px;
+}
+.sections h3{
+  color: white;
+  padding: 25px 10px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.sections h3:hover{
+  background: #333 !important;
+  text-decoration: none;
+}
+.transaction-history table thead,
+.transaction-history table th{
+  border: 2px solid black;
+  background-color: #eee;
+}
+.transaction-history table td{
+  border: 1px solid #ccc;
+}
+.transaction-history table{
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.transaction-history table th,
+.transaction-history table td{
+  padding: 8px;
+}
